@@ -1,0 +1,17 @@
+{
+    "family": "demo-test-api",
+    "containerDefinitions": [
+        {
+            "name": "api",
+            "image": "740728954255.dkr.ecr.ap-south-1.amazonaws.com/demo/api:latest",
+            "portMappings": [
+                {
+                    "hostPort": 80,
+                    "protocol": "tcp",
+                    "containerPort": 80
+                }
+            ]
+        }
+    ],
+    "memory": "512"
+}

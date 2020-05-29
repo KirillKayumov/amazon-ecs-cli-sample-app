@@ -58,7 +58,7 @@
         "memoryReservation": null,
         "volumesFrom": [],
         "stopTimeout": null,
-        "image": "740728954255.dkr.ecr.ap-south-1.amazonaws.com/demo/api:56f29bc",
+        "image": "740728954255.dkr.ecr.ap-south-1.amazonaws.com/demo/api:latest",
         "startTimeout": null,
         "firelensConfiguration": null,
         "dependsOn": null,
