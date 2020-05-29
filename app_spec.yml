@@ -1,0 +1,10 @@
+version: 0.0
+
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: "arn:aws:ecs:ap-south-1:740728954255:task-definition/demo-test-api:4"
+        LoadBalancerInfo:
+          ContainerName: api
+          ContainerPort: 80
